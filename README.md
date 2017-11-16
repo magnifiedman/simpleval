@@ -17,6 +17,9 @@ In your HTML form code, simply add the class="required" to any field that you wi
 Form is tied to jQuery .submit(), so if you wish to tie any ajax to submission, use that hook.
 ```
 
+The class="form-error" is added to fields that do not validate. You will want to create your own styles for this class.
+```
+
 ## Authors
 
 * **Travis Wachendorf** - [Midwestern Analog](https://github.com/magnifiedman)
