@@ -19,6 +19,7 @@ Form is tied to jQuery .submit(), so if you wish to tie any ajax to submission, 
 
 The class="form-error" is added to fields that do not validate. You will want to create your own styles for this class.
 ```
+```
 
 ## Authors
 
