@@ -19,6 +19,12 @@ Form is tied to jQuery .submit(), so if you wish to tie any ajax to submission, 
 
 The class="form-error" is added to fields that do not validate. You will want to create your own styles for this class.
 ```
+Classes to add for custom masking and validation:
+"ccnum" = Credit Card Numner (1111-1111-1111-1111)
+"ccexp" = Credit Card Expiration Date (12/1234)
+"money" = Money amounts ($00.00)
+
+Telephone fields (input type="tel") are auto-masked.
 ```
 
 ## Authors
