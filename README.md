@@ -10,7 +10,7 @@ Just link to the simpleval.js file from your page with your form. Creating requi
 
 ```
 Include the simpleval.js file at the end of your <body> tag after you include your desired jQuery library file
-<script src="PATH_TO_FOLDER/simpleval.js"</script>
+<script src="PATH_TO_FOLDER/simpleval.js"></script>
 ```
 In your HTML form code, simply add the class="required" to any field that you wish to require. Validation will be done on all fields simultaneously.
 ```
