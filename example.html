@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Simple Val Example</title>
+<link rel="stylesheet" href="css/simpleval.css" />
+</head>
+<body>
+ 
+<!-- basic form -->	
+<form class="forms" action="" method="post">
+	<p class="simpleval-message"></p>
+	<p>Name <input type="text" name="name" placeholder="Your Name" class="required" /></p>
+	<p>Telephone <input type="tel" name="telephone" placeholder="Telephone" class="required" /></p>
+	<p>CC Num<input type="text" name="ccnum" placeholder="CC" class="ccnum required" /></p>
+	<p>CC Exp<input type="text" name="ccexp" placeholder="CC" class="ccexp required" /></p>
+	<p>Money <input type="text" name="money" placeholder="CC" class="money required" /></p>
+	<p>Email <input type="email" name="email" placeholder="you@youremail.com" class="required" /></p>
+	<p>
+	<select name="selected" class="required">
+		<option value="">-- Please select quantity of puppies</option>
+		<option value="1">1 Puppy Dog</option>
+	</select>
+	</p>
+	<p><input type="checkbox" name="testcheck" value="y" id="test3" class="required" />
+	<label for="test3">Green</label></p>
+	<p><input type="checkbox" name="testcheck" value="y" id="test3" class="required" disabled="disabled" />
+	<label for="test3">Green</label></p>
+	<p>
+		<input type="radio" name="radio-1" value="3" /> 3 Weeks<br />
+		<input type="radio" name="radio-1" value="5" /> 5 Weeks
+	</p>
+	<p><input type="submit" name="sendsubmit" value="Submit 1" /></p>
+</form>
+ 
+<!-- scripts -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+<script src="js/simpleval.js" type="text/javascript"></script>
+<!-- end scripts -->
+
+</body>
+</html>

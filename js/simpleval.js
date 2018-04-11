@@ -191,7 +191,7 @@ $( document ).ready(function() {
 		var formFields = theForm.find(':input');
 		var required = theForm.find('.required');
 		var email = theForm.find('.email');
-		var messageBox = theForm.find('.message');
+		var messageBox = theForm.find('.simpleval-message');
 		var passwordMatch = true
 		
 
