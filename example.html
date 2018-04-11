@@ -2,14 +2,18 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Simple Val Example</title>
+<title>Simple Val Example :: By Midwestern Analog</title>
 <link rel="stylesheet" href="css/simpleval.css" />
 </head>
 <body>
  
 <!-- basic form -->	
 <form class="forms" action="" method="post">
+	
+	<!-- alert box - required! -->
 	<p class="simpleval-message"></p>
+	
+	<!-- basic form hoo ha -->
 	<p>Name <input type="text" name="name" placeholder="Your Name" class="required" /></p>
 	<p>Telephone <input type="tel" name="telephone" placeholder="Telephone" class="required" /></p>
 	<p>CC Num<input type="text" name="ccnum" placeholder="CC" class="ccnum required" /></p>
@@ -22,15 +26,19 @@
 		<option value="1">1 Puppy Dog</option>
 	</select>
 	</p>
-	<p><input type="checkbox" name="testcheck" value="y" id="test3" class="required" />
+	
+	<!-- checkboxes need label tag after for correct styling -->
+	<p><input type="checkbox" name="testcheck1" value="y" id="test1" class="required" />
 	<label for="test3">Green</label></p>
-	<p><input type="checkbox" name="testcheck" value="y" id="test3" class="required" disabled="disabled" />
-	<label for="test3">Green</label></p>
+	<p><input type="checkbox" name="testcheck2" value="y" id="test2" disabled="disabled" />
+	<label for="test3">Disabled</label></p>
+	
 	<p>
 		<input type="radio" name="radio-1" value="3" /> 3 Weeks<br />
 		<input type="radio" name="radio-1" value="5" /> 5 Weeks
 	</p>
-	<p><input type="submit" name="sendsubmit" value="Submit 1" /></p>
+	<p><input type="submit" name="sendsubmit" value="Submit Form" /></p>
+	
 </form>
  
 <!-- scripts -->

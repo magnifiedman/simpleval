@@ -1,6 +1,12 @@
+/**
+ * Simpleval Javascript Form Validation
+ * Author: Midwestern Analog
+ * Version: 1.1
+ * Release Date: 04.11.18
+ * License: GNU Public
+ */
+
 $( document ).ready(function() {
-
-
 
 
 	// INIT AND CONFIG
@@ -14,8 +20,6 @@ $( document ).ready(function() {
 	$('.ccexp').attr('placeholder','XX/XXXX');
 	$('.money').attr('data-value','');
 	$('.money').attr('placeholder','$0.00');
-
-
 
 
 	// BASIC FUNCTIONS
@@ -39,8 +43,6 @@ $( document ).ready(function() {
 		var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
 		return emailReg.test( email );
 	}
-
-
 	
 
 	// FORMATTING DATA FIELDS
@@ -170,8 +172,6 @@ $( document ).ready(function() {
 		this.value = newVal;
 
 	});
-
-
 
 
 	// FORM VALIDATION
